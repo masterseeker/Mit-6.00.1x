@@ -18,6 +18,7 @@ for letters in s:
         count += 1
 print('Number of vowels: {}'.format(count))
 
+# list comprehension 
 count = len([v for v in s if v in 'aeiou'])
 print('Number of vowels: {}'.format(count))
 
